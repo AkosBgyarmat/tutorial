@@ -13,3 +13,6 @@ Git segédlet
 -git remove -v                     # Megnézi mivel van összekapcsolva
 -git push -u origin main           # Feltöltés, -u ha először töltünk föl
 -git valami
+# gyakorlas
+ gyakorlas
+ gyakorlas
