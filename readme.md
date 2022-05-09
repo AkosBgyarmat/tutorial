@@ -1,12 +1,16 @@
 Git segédlet
-vsc-ban terminál nyitása -> git bash (Git bash telepítése)
-MUnka könyvtár létrehozása -> mkdir tutorial
-cd.git tutorial mappába belépés
-echo "git segédlet" >> readme.md  szöveg beleírása a readme.md fájlba
-ls (list) mappa listázása
-git init #könyvtár inicializálása, git mappává
-git config --global --list (A globális beállítások listázása)
-git status(státusz lekérése)
-git add readme.md (változtatásainknak a stagelése)
-git commit -m "asdsdadasdas" (az összeset felpussolja)
-git status (jelenlegi  uinkafolyamatot mutatja)
+-VSC terminál nyitása, git bash    #  Ha nincs ilyen, akkor git scm telepítése
+-mkdir tutorial                    #  Munkakönyvtár létrehozása (make directory}
+-cd /tutorial                      # Beléptünk a mappába
+-echo "git segédlet" >> readme.md  # Readme file létrehozása, "git segédlet" szöveggel
+-ls                                # Mappa tartalmát listázzuk
+-git init                          # Könyvtár inicializálása git mappává
+-git config --global --list        # Globális beállítások listázása
+-git status                        # Munkamenet jelenlegi állapotának lekérdezése
+-git add readme.md                 # readme.md fájl stage-elése
+-git commit -m "first commit"      # Stage-elt változások commit-elése "first commit" üzenettel
+-git remote add origin [link]      # Összekapcsolás
+-git remove -v                     # Megnézi mivel van összekapcsolva
+-git push -u origin main           # Feltöltés, -u ha először töltünk föl
+-git valami
+git 
